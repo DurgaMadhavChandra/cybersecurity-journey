@@ -95,7 +95,60 @@ A function that calls itself to solve smaller versions of the same problem.
 
 
 ## 3. Data Structures
-*(Add notes here after studying)*
+
+### What is a Data Structure?
+A method of organizing data so algorithms can work efficiently.
+
+Algorithm = Strategy
+Data Structure = Storage System
+
+
+### Core Data Structures
+| Data Structure | Principle | Real Life Example |
+|---------------|-----------|-------------------|
+| Queue | FIFO — First In First Out | Ticket line |
+| Stack | LIFO — Last In First Out | Stack of plates |
+| Array | Contiguous memory, fixed size | Row of lockers |
+| Linked List | Non-contiguous, dynamic size | Chain of nodes |
+| Tree | Hierarchical structure | File system |
+| Hash Table | Key → Hash → Bucket | Password database |
+| Trie | Tree for storing words | DNS lookup |
+
+### Queue vs Stack
+| Feature | Queue | Stack |
+|---------|-------|-------|
+| Principle | FIFO | LIFO |
+| Add | Enqueue | Push |
+| Remove | Dequeue | Pop |
+| Example | Printer queue | Browser back button |
+
+### Arrays vs Linked Lists
+| Feature | Array | Linked List |
+|---------|-------|-------------|
+| Memory | Contiguous | Non-contiguous |
+| Search | O(1) fast index | O(n) sequential |
+| Insert | Expensive | Easy O(1) |
+| Size | Fixed | Dynamic |
+
+### Complexity Comparison
+| Data Structure | Search | Insert |
+|---------------|--------|--------|
+| Array | O(1) | O(n) |
+| Linked List | O(n) | O(1) |
+| Binary Search Tree | O(log n) | O(log n) |
+| Hash Table | O(1) avg | O(1) avg |
+| Trie | O(1) | O(1) |
+
+### Why It Matters for Cybersecurity
+- **Queue** → Network packet processing
+- **Stack** → Call stack analysis in malware
+- **Tree** → File system and attack path analysis
+- **Hash Table** → Password databases, malware signatures
+- **Trie** → DNS lookup, threat intelligence platforms
+
+### Key Takeaway
+> Choosing the right data structure often matters
+> more than writing more code.
 
 ---
 
