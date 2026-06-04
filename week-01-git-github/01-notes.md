@@ -153,4 +153,93 @@ Data Structure = Storage System
 ---
 
 ## 4. C Language
-*(Add notes here after studying)*
+
+### What is C?
+A low-level, compiled programming language.
+Foundation for many modern languages and operating systems.
+
+### Basic Program Structure
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+    return 0;
+}
+```
+
+### Data Types
+| Type | Purpose | Example |
+|------|---------|---------|
+| int | Whole numbers | int age = 20 |
+| float | Decimal numbers | float price = 9.99 |
+| char | Single character | char grade = 'A' |
+| bool | True or False | bool is_pass = true |
+| string | Text | string name = "Madhav" |
+
+### Conditionals
+```c
+if (x < y)
+{
+    printf("x is less than y\n");
+}
+else if (x > y)
+{
+    printf("x is greater than y\n");
+}
+else
+{
+    printf("x is equal to y\n");
+}
+```
+
+### Loops
+```c
+// While Loop
+int i = 0;
+while (i < 3)
+{
+    printf("meow\n");
+    i++;
+}
+
+// For Loop
+for (int i = 0; i < 3; i++)
+{
+    printf("meow\n");
+}
+```
+
+### Functions
+```c
+void meow(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("meow\n");
+    }
+}
+```
+
+### Input Validation
+```c
+do
+{
+    n = get_int("What's n? ");
+}
+while (n < 0);
+```
+
+### Common Errors
+| Error | Cause | Fix |
+|-------|-------|-----|
+| Infinite Loop | Condition never false | Add correct exit condition |
+| Integer Overflow | Value exceeds memory | Use larger data type |
+| Invalid Input | No validation | Use do-while loop |
+
+### Key Takeaway
+> The code is only the implementation —
+> the algorithm is the real solution.
+
+---
