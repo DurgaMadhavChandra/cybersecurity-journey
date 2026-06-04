@@ -50,9 +50,49 @@ Helps reduce mistakes and plan logic clearly.
 ---
 
 ## 2. Algorithms
-*(Add notes here after studying)*
+
+### What is an Algorithm?
+A step-by-step set of instructions to solve a problem.
+Every program follows: **Input → Process → Output**
+
+### Searching Algorithms
+| Algorithm | How it works | Data needs sorting? | Worst Case |
+|-----------|-------------|---------------------|------------|
+| Linear Search | Check every element one by one | No | O(n) |
+| Binary Search | Split in half each time | Yes | O(log n) |
+
+**Example — 1000 elements:**
+- Linear Search = 1000 checks
+- Binary Search = ~10 checks
+
+### Sorting Algorithms
+| Algorithm | Idea | Worst Case | Best Case |
+|-----------|------|------------|-----------|
+| Selection Sort | Find smallest, place at beginning | O(n²) | Ω(n²) |
+| Bubble Sort | Swap adjacent elements until sorted | O(n²) | Ω(n) |
+| Merge Sort | Split, sort, merge (uses recursion) | O(n log n) | Ω(n log n) |
+
+### Big O Notation
+Measures how an algorithm performs as data grows.
+
+Slowest → O(n²) → O(n log n) → O(n) → O(log n) → O(1) ← Fastest
+
+### Recursion
+A function that calls itself to solve smaller versions of the same problem.
+- **Base Case** → stops the recursion
+- **Recursive Case** → calls itself with smaller input
+
+### Why It Matters for Cybersecurity
+- Threat detection → analyze logs, find patterns
+- Malware analysis → classify safe vs malicious files
+- Password security → hashing and encryption algorithms
+- Network monitoring → detect anomalies and intrusions
+
+### Key Takeaway
+> Great programmers design efficient algorithms before writing code.
 
 ---
+
 
 ## 3. Data Structures
 *(Add notes here after studying)*
