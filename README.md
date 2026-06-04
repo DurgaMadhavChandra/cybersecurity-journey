@@ -7,7 +7,7 @@ notes, tools, labs, and resources every week.
 
 | Week | Topics | Notes | Blog |
 |------|--------|-------|------|
-| Week 01 | Git & GitHub | [Notes](./week-01-git-github/notes.md) | Coming Friday |
+| Week 01 | Basics of Computing Fundamentals | [Notes](./week-01-git-github/notes.md) | Coming Friday |
 
 ## 🛣️ Road Map
 - Phase-1: Foundation
