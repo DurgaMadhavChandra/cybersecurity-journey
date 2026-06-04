@@ -1,69 +1,63 @@
-# ============================================
-# Week 01 — Computational Thinking
-# Practicing core programming concepts
-# ============================================
+# Week 01 — Computing Fundamentals Notes
 
-# 1. INPUT → PROCESS → OUTPUT
-name = input("Enter your name: ")
-greeting = "Hello, " + name
-print(greeting)
+---
 
-# ============================================
+## 1. Computational Thinking
 
-# 2. VARIABLES
-student_name = "Madhav"
-marks = 85
-is_pass = True
+### What is it?
+A problem-solving approach used before writing any code.
+Every program follows: **Input → Process → Output**
 
-# ============================================
+### The 4 Pillars
+| Pillar | Definition | Example |
+|--------|-----------|---------|
+| Decomposition | Break big problem into small parts | Shopping site → Login, Cart, Payment |
+| Pattern Recognition | Find repeated structures | 2,4,6,8 → +2 every time |
+| Abstraction | Focus on important details only | Google Maps hides GPS complexity |
+| Algorithm Design | Step-by-step solution | Recipe for making tea |
 
-# 3. CONDITIONALS
-if marks >= 40:
-    print("Pass")
-else:
-    print("Fail")
+### Algorithms
+- **Linear Search** → Check every item → O(n)
+- **Binary Search** → Split in half each time → O(log n)
+- 1000 pages: Linear = 1000 checks, Binary = ~10 checks
 
-# ============================================
+### Pseudocode
+Human-readable plan written before actual code.
+Helps reduce mistakes and plan logic clearly.
 
-# 4. LOOPS
-for i in range(3):
-    print("Hello")
+### Key Programming Concepts
+- **Function** → performs a specific task → `print()`
+- **Variable** → stores information → `name = "Madhav"`
+- **Conditional** → makes decisions → `if marks >= 40`
+- **Loop** → repeats actions → `for i in range(3)`
+- **Boolean** → True or False only
 
-# ============================================
+### How Computers Represent Data
+- **Numbers** → Binary (0s and 1s) → 101 = 5
+- **Text** → ASCII (A=65, B=66) and Unicode (supports emojis)
+- **Images** → Pixels with RGB values → R=72, G=73, B=33
 
-# 5. FUNCTIONS
-def greet(name):
-    print("Hello, " + name)
+### Why It Matters for Cybersecurity
+- Analyze attacks step by step (Recon → Scan → Exploit)
+- Detect patterns in suspicious logins or malware
+- Build tools like port scanners and log analyzers
+- Automate monitoring and incident response
 
-greet("Madhav")
+### Key Takeaway
+> Programming is not about memorizing syntax.
+> It is about learning how to think and solve problems.
 
-# ============================================
+---
 
-# 6. LINEAR SEARCH
-def linear_search(arr, target):
-    for i in range(len(arr)):
-        if arr[i] == target:
-            return i
-    return -1
+## 2. Algorithms
+*(Add notes here after studying)*
 
-numbers = [2, 4, 6, 8, 10]
-print(linear_search(numbers, 6))
+---
 
-# ============================================
+## 3. Data Structures
+*(Add notes here after studying)*
 
-# 7. BINARY SEARCH
-def binary_search(arr, target):
-    left = 0
-    right = len(arr) - 1
-    while left <= right:
-        mid = (left + right) // 2
-        if arr[mid] == target:
-            return mid
-        elif arr[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
-    return -1
+---
 
-numbers = [2, 4, 6, 8, 10]
-print(binary_search(numbers, 6))
+## 4. C Language
+*(Add notes here after studying)*
