@@ -1,4 +1,4 @@
-# Week 01 — Computing Fundamentals Notes
+# Week 01 — Basics of Computing Fundamentals Notes
 
 ---
 
