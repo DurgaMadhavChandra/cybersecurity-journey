@@ -302,32 +302,6 @@ limited hardware feel much more powerful than it actually is.
 
 ---
 
-## Week 02 Reflection on Struggles
-
-Looking back, I didn't struggle because the topics were too difficult.
-I struggled because I was carrying the wrong mental model.
-
-I thought programs ran one after another.
-I thought concurrency meant "everything happens together."
-I thought RAM had to contain an entire program.
-I thought scheduling algorithms were just formulas to memorize.
-
-Every time I got stuck, the solution wasn't to read faster.
-It was to stop, draw diagrams, build examples, and ask:
-
-**"What problem was the operating system trying to solve?"**
-
-That single question changed the way I approached every topic this week.
-
-I didn't just learn Operating Systems.
-I started seeing the computer as a collection of limited resources that
-need to be shared fairly, efficiently, and safely.
-
-And honestly, that's a much more interesting way to think about computers
-than I had before. ⚙️🔐
-
----
-
 **Struggle 6: I Couldn't Understand Why We Need System Calls**
 **The Problem**
 
@@ -675,3 +649,31 @@ of my cybersecurity toolkit.
 The more I learn, the more I realize that cybersecurity is not separate from
 computer science—it is computer science applied to defending and attacking
 real systems.
+
+---
+
+## Week 02 Reflection on Struggles
+
+Looking back, I didn't struggle because the topics were too difficult.
+I struggled because I was carrying the wrong mental model.
+
+I thought programs ran one after another.
+I thought concurrency meant "everything happens together."
+I thought RAM had to contain an entire program.
+I thought scheduling algorithms were just formulas to memorize.
+
+Every time I got stuck, the solution wasn't to read faster.
+It was to stop, draw diagrams, build examples, and ask:
+
+**"What problem was the operating system trying to solve?"**
+
+That single question changed the way I approached every topic this week.
+
+I didn't just learn Operating Systems.
+I started seeing the computer as a collection of limited resources that
+need to be shared fairly, efficiently, and safely.
+
+And honestly, that's a much more interesting way to think about computers
+than I had before. ⚙️🔐
+
+---
