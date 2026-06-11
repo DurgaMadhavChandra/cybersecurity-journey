@@ -575,7 +575,7 @@ I also found that connecting concepts to everyday examples—like hospital queue
 
 My goal for next week is to go deeper into these concepts by solving scheduling and synchronization problems, because I feel that implementing them is the best way to truly understand how an operating system works.
 
-## CPU Scheduling Algorithms (Continued)
+## CPU Scheduling Algorithms 
 
 Shortest Job First (**SJF**)
 
