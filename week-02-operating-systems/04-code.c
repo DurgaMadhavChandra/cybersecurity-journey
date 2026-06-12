@@ -369,3 +369,226 @@ int main() {
     return 0;
 }
 ```
+
+// ============================================
+// TYPES OF OPERATING SYSTEMS
+// ============================================
+
+// I thought every OS worked the same way.
+// Then I learned there are different types
+// depending on the problem they solve.
+
+void typesOfOSDemo() {
+    printf("\nTypes of Operating Systems:\n");
+    printf("- Batch Operating System\n");
+    printf("- Time Sharing Operating System\n");
+    printf("- Distributed Operating System\n");
+    printf("- Network Operating System\n");
+    printf("- Real-Time Operating System (RTOS)\n");
+}
+// ============================================
+// COMPONENTS OF AN OPERATING SYSTEM
+// ============================================
+
+void osComponentsDemo() {
+    printf("\nMajor OS Components:\n");
+    printf("1. Process Management\n");
+    printf("2. Memory Management\n");
+    printf("3. File System\n");
+    printf("4. Device Management\n");
+    printf("5. Security & Protection\n");
+    printf("6. User Interface (Shell/GUI)\n");
+}
+// ============================================
+// CONVOY EFFECT
+// ============================================
+
+// In FCFS, a long process can make all the
+// shorter processes wait behind it.
+
+void convoyEffectDemo() {
+    printf("\nConvoy Effect Example:\n");
+    printf("Long Process (20ms) -> Short1 (2ms) -> Short2 (1ms)\n");
+    printf("The short processes are forced to wait.\n");
+}
+// ============================================
+// PRIORITY SCHEDULING
+// ============================================
+
+void priorityScheduling(int priority[], int n) {
+    printf("\nPriority Scheduling Order:\n");
+
+    for(int i = 0; i < n; i++) {
+        int highest = i;
+
+        for(int j = i + 1; j < n; j++) {
+            if(priority[j] < priority[highest])
+                highest = j;
+        }
+
+        int temp = priority[i];
+        priority[i] = priority[highest];
+        priority[highest] = temp;
+    }
+
+    for(int i = 0; i < n; i++)
+        printf("Priority %d\n", priority[i]);
+}
+// ============================================
+// MULTILEVEL QUEUE SCHEDULING
+// ============================================
+
+void multilevelQueueDemo() {
+    printf("\nMultilevel Queue Scheduling:\n");
+    printf("System Queue  -> High Priority\n");
+    printf("Interactive Queue -> Medium Priority\n");
+    printf("Batch Queue -> Low Priority\n");
+}
+// ============================================
+// COMPARISON OF CPU SCHEDULING ALGORITHMS
+// ============================================
+
+void schedulingComparison() {
+    printf("\nCPU Scheduling Comparison:\n");
+    printf("FCFS        : Simple but suffers from Convoy Effect.\n");
+    printf("SJF         : Minimum average waiting time.\n");
+    printf("Priority    : Executes highest priority first.\n");
+    printf("Round Robin : Fair scheduling using time quantum.\n");
+}
+// ============================================
+// WHAT IS CONCURRENCY?
+// ============================================
+
+void concurrencyDemo() {
+    printf("\nConcurrency:\n");
+    printf("Multiple tasks make progress during overlapping time periods.\n");
+}
+// ============================================
+// CONDITION VARIABLES
+// ============================================
+
+void conditionVariableDemo() {
+    printf("\nCondition Variable:\n");
+    printf("A thread waits until another thread signals an event.\n");
+}
+// ============================================
+// PRODUCER-CONSUMER PROBLEM
+// ============================================
+
+int buffer = 0;
+
+void producer() {
+    buffer++;
+    printf("Producer produced an item. Buffer = %d\n", buffer);
+}
+
+void consumer() {
+    if(buffer > 0) {
+        buffer--;
+        printf("Consumer consumed an item. Buffer = %d\n", buffer);
+    } else {
+        printf("Buffer Empty.\n");
+    }
+}
+// ============================================
+// READER-WRITER PROBLEM
+// ============================================
+
+void readerWriterDemo() {
+    printf("\nReader-Writer Problem:\n");
+    printf("Multiple readers can access shared data.\n");
+    printf("Only one writer can update shared data at a time.\n");
+}
+// ============================================
+// DINING PHILOSOPHERS PROBLEM
+// ============================================
+
+void diningPhilosophersDemo() {
+    printf("\nDining Philosophers:\n");
+    printf("5 Philosophers, 5 Forks.\n");
+    printf("Need synchronization to avoid deadlock.\n");
+}
+// ============================================
+// DEADLOCK AVOIDANCE / DETECTION / RECOVERY
+// ============================================
+
+void deadlockManagementDemo() {
+    printf("\nDeadlock Handling:\n");
+    printf("- Avoidance : Allocate resources safely.\n");
+    printf("- Detection : Find circular waits.\n");
+    printf("- Recovery  : Terminate or restart processes.\n");
+}
+// ============================================
+// MEMORY MANAGEMENT
+// ============================================
+
+void memoryManagementDemo() {
+    printf("\nMemory Management:\n");
+    printf("OS allocates and deallocates RAM for processes.\n");
+}
+// ============================================
+// FREE SPACE MANAGEMENT
+// ============================================
+
+void freeSpaceManagementDemo() {
+    int bitmap[8] = {1,0,1,1,0,0,1,0};
+
+    printf("\nDisk Free Space (Bitmap):\n");
+
+    for(int i = 0; i < 8; i++)
+        printf("Block %d : %s\n",
+               i,
+               bitmap[i] ? "Used" : "Free");
+}
+// ============================================
+// SEGMENTATION
+// ============================================
+
+void segmentationDemo() {
+    int segment = 2;
+    int offset = 150;
+    int base = 2000;
+
+    printf("\nSegmentation Example:\n");
+    printf("Physical Address = %d\n", base + offset);
+}
+// ============================================
+// LRU PAGE REPLACEMENT
+// ============================================
+
+void lruDemo() {
+    printf("\nLRU Page Replacement:\n");
+    printf("Replace the page that has not been used for the longest time.\n");
+}
+// ============================================
+// OPTIMAL PAGE REPLACEMENT
+// ============================================
+
+void optimalDemo() {
+    printf("\nOptimal Page Replacement:\n");
+    printf("Replace the page that will not be used for the longest future time.\n");
+}
+// ============================================
+// LFU PAGE REPLACEMENT
+// ============================================
+
+void lfuDemo() {
+    printf("\nLFU Page Replacement:\n");
+    printf("Replace the page with the lowest access frequency.\n");
+}
+// ============================================
+// THRASHING
+// ============================================
+
+void thrashingDemo() {
+    int pageFaults = 18;
+    int requests = 20;
+
+    printf("\nThrashing Demo:\n");
+    printf("Page Faults: %d / %d\n", pageFaults, requests);
+
+    if(pageFaults > requests * 0.7)
+        printf("System is Thrashing.\n");
+    else
+        printf("Memory utilization is stable.\n");
+}
