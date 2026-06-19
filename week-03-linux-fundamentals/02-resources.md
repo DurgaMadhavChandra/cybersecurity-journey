@@ -30,6 +30,42 @@ The moment I stopped reading about commands and started typing them, Linux stopp
 
 ---
 
+## Hands-On Practice — Setting Up My Own Lab
+
+This was the part of the week I am most proud of.
+I didn't just follow tutorials — I set up a real environment and practiced everything myself.
+
+I installed **Kali Linux** on a virtual machine and used it as my primary practice environment
+for the entire week. Every command from the notes was typed here, not just read.
+
+### What I Set Up
+| Step | What I Did |
+|------|-----------|
+| Hypervisor | Installed VirtualBox / VMware on my host machine |
+| ISO | Downloaded the official Kali Linux ISO from kali.org |
+| VM Config | Allocated RAM, storage, and configured network adapter |
+| First Boot | Completed Kali setup and updated all packages with `apt update && apt upgrade` |
+| Practice | Ran every command from this week's notes inside the VM |
+
+### What I Practiced Hands-On
+- Navigated the full Kali filesystem from the terminal
+- Created users, set passwords, and managed groups
+- Applied `chmod` and `chown` on real files and observed the changes
+- Wrote and executed my first bash scripts
+- Used `grep`, `cut`, and `awk` to parse real log files
+- Ran `nmap` scans against my own network
+- Set up a Netcat listener and connected to it from another terminal
+- Searched for SUID binaries using `find`
+
+### Why This Mattered
+Reading about Linux and using Linux are two completely different things.
+The VM gave me a safe space to break things, fix them, and break them again.
+Every mistake I made in the VM taught me more than any tutorial could.
+Kali Linux also comes pre-loaded with the exact tools used in real security work —
+so I was practicing in the same environment professionals use on the job.
+
+---
+
 ## Topic-wise Resources
 
 ### 1. Command Line & Navigation
