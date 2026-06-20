@@ -7,9 +7,9 @@ notes, tools, labs, and resources every week.
 
 | Week | Topics | Notes | Blog |
 |------|--------|-------|------|
-| Week 01 | Basics of Computing Fundamentals | [Notes](./week-01-basics-of-computing-fundamentals/notes.md) | [Before You Hack, You Must Think](https://durgamadhav.hashnode.dev/before-you-hack-you-must-think-week-01-computing-fundamentals) |
-| Week 02 | Operating Systems | [Notes](./week-02-operating-systems/notes.md) | [Before You Secure, You Must Understand the OS](https://durgamadhav.hashnode.dev/before-you-secure-you-must-understand-the-os-week-02-operating-systems) |
-| Week 03 | Linux Fundamentals | [Notes](./week-03-linux-fundamentals/notes.md) | [Linux Taught Me That Security Is Really About Boundaries](https://durgamadhav.hashnode.dev/linux-taught-me-that-security-is-really-about-boundaries-week-03-linux-fundamentals) |
+| Week 01 | Basics of Computing Fundamentals | [Notes](./week-01-basics-of-computing-fundamentals/01-notes.md) | [Before You Hack, You Must Think](https://durgamadhav.hashnode.dev/before-you-hack-you-must-think-week-01-computing-fundamentals) |
+| Week 02 | Operating Systems | [Notes](./week-02-operating-systems/01-notes.md) | [Before You Secure, You Must Understand the OS](https://durgamadhav.hashnode.dev/before-you-secure-you-must-understand-the-os-week-02-operating-systems) |
+| Week 03 | Linux Fundamentals | [Notes](./week-03-linux-fundamentals/01-notes.md) | [Linux Taught Me That Security Is Really About Boundaries](https://durgamadhav.hashnode.dev/linux-taught-me-that-security-is-really-about-boundaries-week-03-linux-fundamentals) |
 
 ## 🛣️ Road Map
 
