@@ -1,5 +1,3 @@
-===== FILE: 01-notes.md =====
-
 # Week 10 Notes — TryHackMe: SOC Level 1 Path (Cyber Threat Intelligence Module)
 
 ---
@@ -248,23 +246,3 @@ Diamond Model | MITRE ATT&CK (Tactics/Techniques) | MISP | OpenCTI | STIX2 | YAR
 > This week moved from detecting threats (Week 09's tooling) to understanding them before they even hit a detection.
 > The Pyramid of Pain, Kill Chain models, and Diamond Model are all different lenses for the same question: how far did the attacker get, and what will actually cost them to change?
 > MISP, OpenCTI, and YARA are how that understanding gets operationalized — shared, correlated, and turned into something a SOC can actually hunt with.
-
-
-===== FILE: 02-resources.md =====
-
-# Week 10 Resources — CTI Module
-
-- TryHackMe SOC Level 1 Path: https://tryhackme.com/path/attack-and-defend-soc-level1
-- MITRE ATT&CK Framework: https://attack.mitre.org/
-- MISP Project: https://www.misp-project.org/
-- OpenCTI Platform: https://www.opencti.io/en/
-- YARA Documentation: https://yara.readthedocs.io/
-- The Pyramid of Pain (original concept, David Bianco): http://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html
-- Reference notes repo: https://github.com/SohaibBaloch978/Tryhackme_SOC_LEVEL_1-notes
-
-
-===== FILE: 03-errors-and-struggles.md =====
-
-# Week 10 Errors & Struggles
-
-- [Add your own struggles here — e.g. tool that gave you trouble, concept that took multiple tries, a room you got stuck on]
